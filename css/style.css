@@ -75,7 +75,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #D10024;
+  color: #ff8a65;
   text-decoration: none;
   outline: none;
 }
@@ -413,7 +413,7 @@ textarea.input {
 #top-header {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #1E1F29;
+  background-color: #3949ab;
 }
 
 .header-links li {
@@ -431,11 +431,11 @@ textarea.input {
 }
 
 .header-links li a:hover {
-  color: #D10024;
+  color: #ff8a65;
 }
 
 .header-links li i {
-  color: #D10024;
+  color: #ff8a65;
   margin-right: 5px;
 }
 
@@ -446,7 +446,7 @@ textarea.input {
 #header {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #15161D;
+  background-color: #00227b;
 }
 
 .header-logo {
@@ -630,16 +630,19 @@ textarea.input {
 \*----------------------------*/
 
 .main-nav>li+li {
-  margin-left: 30px
+  margin-left: 30px;
+  font-size: 14pt
 }
 
 .main-nav>li>a {
   padding: 20px 0px;
+  font-size: 14pt
 }
 
 .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
-  color: #D10024;
+  color: #ff8a65;
   background-color: transparent;
+  font-size: 14pt
 }
 
 .main-nav>li>a:after {
@@ -647,9 +650,10 @@ textarea.input {
   display: block;
   width: 0%;
   height: 2px;
-  background-color: #D10024;
+  background-color: #ff8a65;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
+  font-size: 14pt
 }
 
 .main-nav>li>a:hover:after, .main-nav>li>a:focus:after, .main-nav>li.active>a:after {
@@ -659,6 +663,28 @@ textarea.input {
 .header-ctn li.nav-toggle {
   display: none;
 }
+
+.col-lg-4 {
+  /* margin-bottom: 1.5rem; */
+  text-align: center;
+}
+
+.rounded-circle {
+  border-radius: 50%!important;
+}
+
+.jumbotron{
+  background-image: url(jumbotron-01.png);
+  padding: 0;
+  color: white;
+}
+
+.overlay{
+  background: rgba(0,0,0,0.5);
+  padding: 4em;
+  
+}
+
 
 /*----------------------------*\
 	responsive nav
@@ -1911,103 +1937,179 @@ textarea.input {
   display: block;
   margin-top: 30px;
 }
+/* Contact Section
+--------------------------------*/
 
-/*=========================================================
-	10 -> NEWSLETTER
-===========================================================*/
-
-#newsletter.section {
-  border-top: 2px solid #E4E7ED;
-  border-bottom: 3px solid #D10024;
-  margin-top: 30px;
+#contact {
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 60px 0;
+  overflow: hidden;
 }
 
-.newsletter {
+#contact .section-header {
+  padding-bottom: 30px;
   text-align: center;
 }
 
-.newsletter p {
-  font-size: 24px;
+#contact .contact-about h3 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #007bff;
 }
 
-.newsletter form {
-  position: relative;
-  max-width: 520px;
-  margin: 30px auto;
+#contact .contact-about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: #888;
 }
 
-.newsletter form:after {
-  content: "\f003";
-  font-family: FontAwesome;
-  position: absolute;
-  font-size: 160px;
-  color: #E4E7ED;
-  top: 15px;
-  -webkit-transform: translateY(-50%) rotate(15deg);
-  -ms-transform: translateY(-50%) rotate(15deg);
-  transform: translateY(-50%) rotate(15deg);
-  z-index: -1;
-  left: -90px;
+#contact .social-links {
+  padding-bottom: 20px;
 }
 
-.newsletter form .input {
-  width: calc(100% - 160px);
-  margin-right: -4px;
-  border-radius: 40px 0px 0px 40px;
-}
-
-.newsletter form .newsletter-btn {
-  width: 160px;
-  height: 40px;
-  font-weight: 700;
-  background: #D10024;
-  color: #FFF;
-  border: none;
-  border-radius: 0px 40px 40px 0px;
-}
-
-.newsletter .newsletter-follow {
+#contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #007bff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
   text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid #007bff;
 }
 
-.newsletter .newsletter-follow li {
+#contact .social-links a:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+#contact .info {
+  color: #283d50;
+}
+
+#contact .info i {
+  font-size: 32px;
+  color: #007bff;
+  float: left;
+  line-height: 1;
+}
+
+#contact .info p {
+  padding: 0 0 10px 36px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+#contact .form-group{
+  padding: 1%
+}
+
+#contact .form #sendmessage {
+  color: #007bff;
+  border: 1px solid #007bff;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #sendmessage.show,
+#contact .form #errormessage.show,
+#contact .form .show {
+  display: block;
+}
+
+#contact .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#contact .form input,
+#contact .form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+#contact .form button[type="submit"] {
+  background: #007bff;
+  border: 0;
+  border-radius: 20px;
+  padding: 8px 30px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#contact .form button[type="submit"]:hover {
+  background: #0067d5;
+  cursor: pointer;
+}
+
+#contact .social-links{
+  text-align: center;
+  padding: 2%
+}
+
+#contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #007bff;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
   display: inline-block;
   margin-right: 5px;
-}
+  
+ }
 
-.newsletter .newsletter-follow li:last-child {
-  margin-right: 0px;
+#contact .social-links a:hover {
+  background: #0067d5;
+  color: #fff;
 }
-
-.newsletter .newsletter-follow li a {
-  position: relative;
-  display: block;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
-  border: 1px solid #E4E7ED;
-  background-color: #FFF;
-  -webkit-transition: 0.2s all;
-  transition: 0.2s all;
-}
-
-.newsletter .newsletter-follow li a:hover, .newsletter .newsletter-follow li a:focus {
-  background-color: #E4E7ED;
-  color: #D10024;
-}
-
 /*=========================================================
 	11 -> FOOTER
 ===========================================================*/
 
 #footer {
-  background: #15161D;
+  background: #00227b;
   color: #B9BABC;
 }
 
 #bottom-footer {
-  background: #1E1F29;
+  background: #3949ab;
+  
 }
 
 .footer {
@@ -2031,13 +2133,13 @@ textarea.input {
 
 .footer-links li i {
   margin-right: 15px;
-  color: #D10024;
+  color: #ff8a65;
   width: 14px;
   text-align: center;
 }
 
 .footer-links li a:hover {
-  color: #D10024;
+  color: #ff8a65;
 }
 
 .copyright {
@@ -2077,8 +2179,8 @@ textarea.input {
 }
 
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
-  background-color: #D10024;
-  border-color: #D10024;
+  background-color: #ff8a65;
+  border-color: #ff8a65;
 }
 
 .slick-prev:before, .slick-next:before {
@@ -2123,7 +2225,7 @@ textarea.input {
 }
 
 .slick-dots li.slick-active button:before {
-  background-color: #D10024;
+  background-color: #ff8a65;
 }
 
 .custom-dots .slick-dots {

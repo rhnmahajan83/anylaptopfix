@@ -363,57 +363,120 @@
 		</div>
 		<!-- /SECTION -->
 
-		<!-- MESSAGE -->
-		<div id="newsletter" class="section">
+		<!--==========================
+      Contact Section
+    ============================-->
+		<section id="contact">
+			<div class="container-fluid">
+	
+				<div class="section-header">
+					<h2>Contact Us</h2>
+				</div>
+	
+				<div class="row wow fadeInUp">
+	
+					<div class="col-lg-6">
+						<div class="map mb-4 mb-lg-0">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+								frameborder="0" style="border:0; width: 100%; height: 312px;" allowfullscreen></iframe>
+						</div>
+					</div>
+	
+					<div class="col-lg-6">
+						<div class="row">
+							<div class="col-md-5 info">
+								<i class="fa fa-map-marker"></i>
+								<p>A108 Adam Street, NY 535022</p>
+							</div>
+							<div class="col-md-4 info">
+								<i class="fa fa-envelope-o"></i>
+								<p>info@example.com</p>
+							</div>
+							<div class="col-md-3 info">
+								<i class="fa fa-phone"></i>
+								<p>+1 5589 55488 55</p>
+							</div>
+						</div>
+	
+						<div class="form">
+							<div id="sendmessage">Your message has been sent. Thank you!</div>
+							<div id="errormessage"></div>
+							<form action="" method="post" role="form" class="contactForm">
+								<div class="form-row">
+									<div class="form-group col-lg-6">
+										<input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+											data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+										<div class="validation"></div>
+									</div>
+									<div class="form-group col-lg-6">
+										<input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+											data-rule="email" data-msg="Please enter a valid email" />
+										<div class="validation"></div>
+									</div>
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+										data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+									<div class="validation"></div>
+								</div>
+								<div class="form-group">
+									<textarea class="form-control" name="message" rows="5" data-rule="required"
+										data-msg="Please write something for us" placeholder="Message"></textarea>
+									<div class="validation"></div>
+								</div>
+								<div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+							</form>
+						</div>
+					</div>
+	
+				</div>
+				<div class="social-links">
+					<a href="https://bit.ly/2OacB0K" class="Whatsapp" target="_blank"><i class="fa fa-whatsapp"></i></a>
+					<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+					<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+					<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+					<a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+					<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+				</div>
+	
+			</div>
+		</section><!-- #contact -->
+	
+	
+		<!-- FOOTER -->
+		<footer id="footer">
+			<!-- top footer -->
+			<div class="section">
 				<!-- container -->
 				<div class="container">
 					<!-- row -->
 					<div class="row">
-						<div class="col-md-12">
-							<div class="newsletter">
-								<p>Any Query? <strong>Send us a message!</strong></p>
-								<!-- <form>
-									<input class="input" type="email" placeholder="Enter Your Email">
-									<button class="newsletter-btn"><i class="fa fa-envelope"></i> Subscribe</button>
-								</form> -->
-								<form #pdform="ngForm" ngNativeValidate class="px-5 py-3">
-										<!--  User Name -->
-										<div class="form-group">
-											<label for="">Enter your name</label>
-											<input class="input" type="email"
-												id="userName" placeholder="eg : 'Steve Jobs'" required>
-										</div>
-							
-										<!--  User's Phone Number -->
-										<div class="form-group">
-												<label for="">Phone Number</label>
-												<input class="input" type="number" max="10"
-														id="userPhoneNumber" placeholder="eg : '9819823623'" required>
-												
-										</div>
-										
-										<!--  User's Message -->
-										<div class="form-group">
-											<label for="">Message</label>
-											<input class="input" type="text" 
-												id="userMessage" placeholder="Type your message here" required>
-										</div>
-										<button class="btn btn-success" input type="submit" value="Submit">Send</button>
-							
-								</form>
-								<ul class="newsletter-follow">
-									<li>
-										<a href="#"><i class="fa fa-facebook"></i></a>
-									</li>
-									<li>
-										<a href="#"><i class="fa fa-twitter"></i></a>
-									</li>
-									<li>
-										<a href="#"><i class="fa fa-instagram"></i></a>
-									</li>
-									<li>
-										<a href="#"><i class="fa fa-pinterest"></i></a>
-									</li>
+						<div class="col-md-6">
+							<div class="footer">
+								<h3 class="footer-title">About Us</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+								<ul class="footer-links">
+									<li><a href="#"><i class="fa fa-map-marker"></i>1734 Stonecoal Road</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+021-95-51-84</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>email@email.com</a></li>
+								</ul>
+							</div>
+						</div>
+	
+	
+	
+						<div class="clearfix visible-xs"></div>
+	
+						<div class="col-md-6">
+							<div class="footer">
+								<h3 class="footer-title">Information</h3>
+								<ul class="footer-links">
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">Contact Us</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Orders and Returns</a></li>
+									<li><a href="#">Terms & Conditions</a></li>
 								</ul>
 							</div>
 						</div>
@@ -422,58 +485,15 @@
 				</div>
 				<!-- /container -->
 			</div>
-			<!-- /MESSAGE -->
+			<!-- /top footer -->
 	
-			<!-- FOOTER -->
-			<footer id="footer">
-				<!-- top footer -->
-				<div class="section">
-					<!-- container -->
-					<div class="container">
-						<!-- row -->
-						<div class="row">
-							<div class="col-md-3 col-xs-6">
-								<div class="footer">
-									<h3 class="footer-title">About Us</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
-									<ul class="footer-links">
-										<li><a href="#"><i class="fa fa-map-marker"></i>1734 Stonecoal Road</a></li>
-										<li><a href="#"><i class="fa fa-phone"></i>+021-95-51-84</a></li>
-										<li><a href="#"><i class="fa fa-envelope-o"></i>email@email.com</a></li>
-									</ul>
-								</div>
-							</div>
-	
-							
-	
-							<div class="clearfix visible-xs"></div>
-	
-							<div class="col-md-3 col-xs-6">
-								<div class="footer">
-									<h3 class="footer-title">Information</h3>
-									<ul class="footer-links">
-										<li><a href="#">About Us</a></li>
-										<li><a href="#">Contact Us</a></li>
-										<li><a href="#">Privacy Policy</a></li>
-										<li><a href="#">Orders and Returns</a></li>
-										<li><a href="#">Terms & Conditions</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!-- /row -->
-					</div>
-					<!-- /container -->
-				</div>
-				<!-- /top footer -->
-	
-				<!-- bottom footer -->
-				<div id="bottom-footer" class="section">
-					<div class="container">
-						<!-- row -->
-						<div class="row">
-							<div class="col-md-12 text-center">
-								<!-- <ul class="footer-payments">
+			<!-- bottom footer -->
+			<div id="bottom-footer" class="section">
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<!-- <ul class="footer-payments">
 									<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
 									<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
 									<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
@@ -481,19 +501,20 @@
 									<li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
 									<li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
 								</ul> -->
-								<span class="copyright">
-									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-									Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+							<span class="copyright">
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								</span>
-							</div>
+								Copyright &copy;
+								<script>document.write(new Date().getFullYear());</script> All rights reserved
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</span>
 						</div>
-							<!-- /row -->
 					</div>
-					<!-- /container -->
+					<!-- /row -->
 				</div>
-				<!-- /bottom footer -->
-			</footer>
+				<!-- /container -->
+			</div>
+			<!-- /bottom footer -->
+		</footer>
 		<!-- /FOOTER -->
 
 		<!-- jQuery Plugins -->
