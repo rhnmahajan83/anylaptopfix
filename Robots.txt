@@ -5,3 +5,4 @@ Disallow: /nogooglebot/
 # Rule 2
 User-agent: *
 Allow: /
+
