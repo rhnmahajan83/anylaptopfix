@@ -290,35 +290,39 @@
 					</div>
 
           <div class="form">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="form-row">
-                <div class="form-group col-lg-6">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group col-lg-6">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                    data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validation"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required"
-                  data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validation"></div>
-              </div>
-              <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
-            </form>
-          </div>
-        </div>
+						<div id="alert_placeholder"></div>
+						<div id="errormessage"></div>
+						<div class="form-row">
+							<div class="form-group col-lg-6">
+								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+									data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+								<div class="validation"></div>
+							</div>
+							<div class="form-group col-lg-6">
+								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+									data-rule="email" data-msg="Please enter a valid email" />
+								<div class="validation"></div>
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+								data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+							<div class="validation"></div>
+						</div>
+						<div class="form-group">
+							<input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number"
+								data-rule="minlen:10" data-msg="Please enter at least 8 chars of subject" />
+							<div class="validation"></div>
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" name="message" rows="5" data-rule="required"
+								data-msg="Please write something for us" placeholder="Message" id="message"></textarea>
+							<div class="validation"></div>
+						</div>
+						<div class="text-center"><button type="submit" title="Send Message" onclick="sendSms()">Send
+								Message</button></div>
+					</div>
+				</div>
 
       </div>
       <div id="homepage-socialinks" class="social-links">
@@ -416,6 +420,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
   <script src="js/main.js"></script>
   <script src="js/animaions.js"></script>
+  <script src="js/sendSms.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
 
   <!-- Bootstrap tooltips -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
