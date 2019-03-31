@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('#homepage-service-desc-1').css('opacity', 0);
   
     $('#homepage-service-desc-1').waypoint(function() {
-        $('#homepage-service-desc-1').addClass('fadeInLeft animated slow');
+        $('#homepage-service-desc-1').addClass('fadeIn animated slow');
     }, { offset: '80%' });
   
   });
@@ -26,7 +26,7 @@ $(document).ready(function(){
     $('#homepage-service-desc-2').css('opacity', 0);
   
     $('#homepage-service-desc-2').waypoint(function() {
-        $('#homepage-service-desc-2').addClass('fadeInRight animated slow');
+        $('#homepage-service-desc-2').addClass('fadeIn animated slow');
     }, { offset: '80%' });
   
   });
@@ -48,7 +48,7 @@ $(document).ready(function(){
     $('#homepage-service-desc-3').css('opacity', 0);
   
     $('#homepage-service-desc-3').waypoint(function() {
-        $('#homepage-service-desc-3').addClass('fadeInLeft animated slow');
+        $('#homepage-service-desc-3').addClass('fadeIn animated slow');
     }, { offset: '80%' });
   
   });
@@ -81,7 +81,7 @@ $(document).ready(function(){
     $('#homepage-contact-map-form').css('opacity', 0);
   
     $('#homepage-contact-map-form').waypoint(function() {
-        $('#homepage-contact-map-form').addClass('fadeInRight animated slow');
+        $('#homepage-contact-map-form').addClass('fadeIn animated slow');
     }, { offset: '50%' });
   
   });
