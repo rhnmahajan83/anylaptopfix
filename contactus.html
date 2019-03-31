@@ -132,7 +132,7 @@
 					</div>
 
 					<div class="form">
-						<div id="sendmessage">Your message has been sent. Thank you!</div>
+						<div id="alert_placeholder"></div>
 						<div id="errormessage"></div>
 						<div class="form-row">
 							<div class="form-group col-lg-6">
@@ -149,6 +149,11 @@
 						<div class="form-group">
 							<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
 								data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+							<div class="validation"></div>
+						</div>
+						<div class="form-group">
+							<input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number"
+								data-rule="minlen:10" data-msg="Please enter at least 8 chars of subject" />
 							<div class="validation"></div>
 						</div>
 						<div class="form-group">
@@ -256,6 +261,7 @@
 	<script src="js/jquery.zoom.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/sendSms.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
 
 </body>
 
