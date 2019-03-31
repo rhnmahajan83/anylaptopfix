@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/sendSms.js"></script>
+
+</head>
+
+<body>
+
+  <table>
+    <tr>
+      <td>
+        Name:
+      </td>
+      <td>
+        <input type="text" name="sender" id="sender" required /><br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Phone Number:
+      </td>
+      <td>
+        <input type="number" name="senderNumber" id="senderNumber" required /><br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Query:
+      </td>
+      <td>
+        <input type="textarea" name="message" id="message" required /><br>
+      </td>
+    </tr>
+  </table>
+
+  <input type="button" value="Submit" onclick="sendSms()" />
+
+
+</body>
+
+</html>
