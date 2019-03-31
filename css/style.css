@@ -650,7 +650,7 @@ textarea.input {
   display: block;
   width: 0%;
   height: 2px;
-  background-color: #f2b632;
+  
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
   font-size: 14pt
