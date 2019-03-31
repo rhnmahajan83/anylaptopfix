@@ -650,7 +650,7 @@ textarea.input {
   display: block;
   width: 0%;
   height: 2px;
-  background-color: #f2b632;
+  
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
   font-size: 14pt
@@ -885,7 +885,7 @@ textarea.input {
   box-shadow: 0px 0px 0px 0px #E4E7ED, 0px 0px 0px 1px #E4E7ED;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
-  height: 370px;
+  height: 400px;
 }
 
 .product:hover {
