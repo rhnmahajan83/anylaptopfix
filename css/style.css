@@ -677,6 +677,13 @@ textarea.input {
   background-image: url(jumbotron-01.png);
   padding: 0;
   color: white;
+} 
+
+.banner-repair {
+  /* The image used */
+  background-image: url(banner.png);
+  height: 100%;
+
 }
 
 .overlay{
