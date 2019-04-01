@@ -2329,4 +2329,10 @@ textarea.input {
     float: none;
     margin-top: 10px;
   }
+  .li {
+    font-size: 14px;
+    margin-left: 10px;
+    display: list-item;
+ }
+
 }
