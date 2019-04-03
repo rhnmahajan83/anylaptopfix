@@ -25,7 +25,7 @@ function sendSms() {
 
   function displaySuccessMessage(){
     // alert("Email sent successfully");
-    bootstrap_alert.warning('Eamil Sent successfully');
+    bootstrap_alert.warning('Email Sent successfully');
   }
 
   var settings = {
