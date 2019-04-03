@@ -682,7 +682,9 @@ textarea.input {
 .banner-repair {
   /* The image used */
   background-image: url(banner.png);
-  height: 100%;
+  /* height: 100%; */
+  padding: 0;
+  color: white;
 
 }
 
@@ -2335,4 +2337,12 @@ textarea.input {
     display: list-item;
  }
 
+}
+
+
+/* Heading */
+
+ .featurette-heading{
+  font-family: 'Montserrat', sans-serif;
+font-weight: bold;
 }
