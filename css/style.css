@@ -5,7 +5,7 @@ Author: yaminncco
 Colors:
 	Body 		: #333
 	Headers 	: #2B2D42
-	Primary 	: #D10024
+	Primary 	: #f2b632
 	Dark 		: #15161D ##1E1F29
 	Grey 		: #E4E7ED #FBFBFC #8D99AE #B9BABC
 
@@ -62,6 +62,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
   color: #2B2D42;
   font-weight: 700;
   margin: 0 0 10px;
@@ -75,7 +76,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #D10024;
+  color: #f2b632;
   text-decoration: none;
   outline: none;
 }
@@ -93,7 +94,7 @@ ul, ol {
 .primary-btn {
   display: inline-block;
   padding: 12px 30px;
-  background-color: #D10024;
+  background-color: #f2b632;
   border: none;
   border-radius: 40px;
   color: #FFF;
@@ -177,7 +178,7 @@ textarea.input {
 
 .input-number .qty-up:hover, .input-number .qty-down:hover {
   background-color: #E4E7ED;
-  color: #D10024;
+  color: #f2b632;
 }
 
 /*-- Select input --*/
@@ -257,8 +258,8 @@ textarea.input {
 }
 
 .input-radio input[type="radio"]:checked+label span, .input-checkbox input[type="checkbox"]:checked+label span {
-  background-color: #D10024;
-  border-color: #D10024;
+  background-color: #f2b632;
+  border-color: #f2b632;
 }
 
 .input-radio input[type="radio"]:checked+label span:after {
@@ -335,13 +336,13 @@ textarea.input {
   display: block;
   width: 0%;
   height: 2px;
-  background-color: #D10024;
+  background-color: #f2b632;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
 
 .section-tab-nav li.active a {
-  color: #D10024;
+  color: #f2b632;
 }
 
 .section-tab-nav li a:hover:after, .section-tab-nav li a:focus:after, .section-tab-nav li.active a:after {
@@ -399,7 +400,7 @@ textarea.input {
 }
 
 #breadcrumb .breadcrumb-tree li a:hover {
-  color: #D10024;
+  color: #f2b632;
 }
 
 /*=========================================================
@@ -413,7 +414,7 @@ textarea.input {
 #top-header {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #1E1F29;
+  background-color: #677077;
 }
 
 .header-links li {
@@ -427,15 +428,15 @@ textarea.input {
 }
 
 .header-links li a {
-  color: #FFF;
+  color: #b5b5b7;
 }
 
 .header-links li a:hover {
-  color: #D10024;
+  color: #f2b632;
 }
 
 .header-links li i {
-  color: #D10024;
+  color: #f2b632;
   margin-right: 5px;
 }
 
@@ -446,7 +447,7 @@ textarea.input {
 #header {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #15161D;
+  background-color:#252839;
 }
 
 .header-logo {
@@ -482,7 +483,7 @@ textarea.input {
 .header-search form .search-btn {
   height: 40px;
   width: 100px;
-  background: #D10024;
+  background: #f2b632;
   color: #FFF;
   font-weight: 700;
   border: none;
@@ -534,7 +535,7 @@ textarea.input {
   border-radius: 50%;
   font-size: 10px;
   color: #FFF;
-  background-color: #D10024;
+  background-color: #f2b632;
 }
 
 .header-ctn .menu-toggle {
@@ -592,7 +593,7 @@ textarea.input {
   display: inline-block;
   width: calc(50% - 0px);
   padding: 12px;
-  background-color: #D10024;
+  background-color: #f2b632;
   color: #FFF;
   text-align: center;
   font-weight: 700;
@@ -620,9 +621,9 @@ textarea.input {
 ===========================================================*/
 
 #navigation {
-  background: #FFF;
-  border-bottom: 2px solid #E4E7ED;
-  border-top: 3px solid #D10024;
+  background: #b5b5b7;
+  border-bottom: 2px solid #b5b5b7;
+  border-top: 3px solid #f2b632;
 }
 
 /*----------------------------*\
@@ -630,16 +631,19 @@ textarea.input {
 \*----------------------------*/
 
 .main-nav>li+li {
-  margin-left: 30px
+  margin-left: 30px;
+  font-size: 14pt
 }
 
 .main-nav>li>a {
   padding: 20px 0px;
+  font-size: 14pt
 }
 
 .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
-  color: #D10024;
+  color: #f2b632;
   background-color: transparent;
+  font-size: 14pt
 }
 
 .main-nav>li>a:after {
@@ -647,9 +651,10 @@ textarea.input {
   display: block;
   width: 0%;
   height: 2px;
-  background-color: #D10024;
+
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
+  font-size: 14pt
 }
 
 .main-nav>li>a:hover:after, .main-nav>li>a:focus:after, .main-nav>li.active>a:after {
@@ -659,6 +664,68 @@ textarea.input {
 .header-ctn li.nav-toggle {
   display: none;
 }
+
+.col-lg-4 {
+  /* margin-bottom: 1.5rem; */
+  text-align: center;
+}
+
+.rounded-circle {
+  border-radius: 50%!important;
+}
+
+.jumbotron{
+  background-image: url(jumbotron-01.png);
+  padding: 0;
+  color: white;
+}
+
+.banner-repair {
+  /* The image used */
+  background-image: url(banner.png);
+  /* height: 100%; */
+  padding: 0;
+  color: white;
+
+}
+
+.overlay{
+  background: rgba(0,0,0,0.5);
+  padding: 4em;
+
+}
+
+
+/*----------------------------*\
+	Drop Down
+\*----------------------------*/
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  font-size: 14px;
+  background-color: #252839;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
 
 /*----------------------------*\
 	responsive nav
@@ -725,7 +792,7 @@ textarea.input {
   bottom: 0;
   left: 0px;
   width: 60%;
-  background: #D10024;
+  background: #f2b632;
   opacity: 0.9;
   -webkit-transform: skewX(-45deg);
   -ms-transform: skewX(-45deg);
@@ -739,7 +806,7 @@ textarea.input {
   bottom: 0;
   left: 1px;
   width: 100%;
-  background: #D10024;
+  background: #f2b632;
   opacity: 0.9;
   -webkit-transform: skewX(-45deg) translateX(-100%);
   -ms-transform: skewX(-45deg) translateX(-100%);
@@ -807,7 +874,7 @@ textarea.input {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: #D10024e6;
+  background: #f2b632;
   text-align: center;
   border-radius: 50%;
   margin: 0px 5px;
@@ -859,11 +926,12 @@ textarea.input {
   box-shadow: 0px 0px 0px 0px #E4E7ED, 0px 0px 0px 1px #E4E7ED;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
+  height: 400px;
 }
 
 .product:hover {
-  -webkit-box-shadow: 0px 0px 6px 0px #E4E7ED, 0px 0px 0px 2px #D10024;
-  box-shadow: 0px 0px 6px 0px #E4E7ED, 0px 0px 0px 2px #D10024;
+  -webkit-box-shadow: 0px 0px 6px 0px #E4E7ED, 0px 0px 0px 2px #f2b632;
+  box-shadow: 0px 0px 6px 0px #E4E7ED, 0px 0px 0px 2px #f2b632;
 }
 
 .product .product-img {
@@ -888,17 +956,18 @@ textarea.input {
 
 .product .product-img .product-label>span.sale {
   background-color: #FFF;
-  border-color: #D10024;
-  color: #D10024;
+  border-color: #f2b632;
+  color: #f2b632;
 }
 
 .product .product-img .product-label>span.new {
-  background-color: #D10024;
-  border-color: #D10024;
+  background-color: #f2b632;
+  border-color: #f2b632;
   color: #FFF;
 }
 
 .product .product-body {
+  padding-top: 2px;
   position: relative;
   padding: 15px;
   background-color: #FFF;
@@ -922,11 +991,11 @@ textarea.input {
 }
 
 .product .product-body .product-name>a:hover, .product .product-body .product-name>a:focus {
-  color: #D10024;
+  color: #f2b632;
 }
 
 .product .product-body .product-price {
-  color: #D10024;
+  color: #f2b632;
   font-size: 18px;
 }
 
@@ -952,7 +1021,7 @@ textarea.input {
 }
 
 .product .product-body .product-rating>i.fa-star {
-  color: #ef233c;
+  color: #f2b632;
 }
 
 .product .product-body .product-rating:after {
@@ -981,7 +1050,7 @@ textarea.input {
 
 .product .product-body .product-btns>button:hover {
   background-color: #E4E7ED;
-  color: #D10024;
+  color: #f2b632;
   border-radius: 50%;
 }
 
@@ -1041,7 +1110,7 @@ textarea.input {
   border: 2px solid transparent;
   height: 40px;
   padding: 0 30px;
-  background-color: #ef233c;
+  background-color: #f2b632;
   color: #FFF;
   text-transform: uppercase;
   font-weight: 700;
@@ -1057,15 +1126,15 @@ textarea.input {
   width: 40px;
   height: 40px;
   line-height: 38px;
-  color: #D10024;
+  color: #f2b632;
   opacity: 0;
   visibility: hidden;
 }
 
 .product .add-to-cart .add-to-cart-btn:hover {
   background-color: #FFF;
-  color: #D10024;
-  border-color: #D10024;
+  color: #f2b632;
+  border-color: #f2b632;
   padding: 0px 30px 0px 50px;
 }
 
@@ -1118,12 +1187,12 @@ textarea.input {
 }
 
 .product-widget .product-body .product-name>a:hover, .product-widget .product-body .product-name>a:focus {
-  color: #D10024;
+  color: #f2b632;
 }
 
 .product-widget .product-body .product-price {
   font-size: 14px;
-  color: #D10024;
+  color: #f2b632;
 }
 
 .product-widget .product-body .product-price .product-old-price {
@@ -1249,7 +1318,7 @@ textarea.input {
 }
 
 .noUi-connect {
-  background-color: #D10024;
+  background-color: #f2b632;
 }
 
 .noUi-horizontal {
@@ -1262,7 +1331,7 @@ textarea.input {
   left: -6px;
   top: -4px;
   border: none;
-  background: #D10024;
+  background: #f2b632;
   -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 50%;
@@ -1323,12 +1392,12 @@ textarea.input {
 
 .store-grid li:hover {
   background-color: #E4E7ED;
-  color: #D10024;
+  color: #f2b632;
 }
 
 .store-grid li.active {
-  background-color: #D10024;
-  border-color: #D10024;
+  background-color: #f2b632;
+  border-color: #f2b632;
   color: #FFF;
   cursor: default;
 }
@@ -1361,12 +1430,12 @@ textarea.input {
 
 .store-pagination li:hover {
   background-color: #E4E7ED;
-  color: #D10024;
+  color: #f2b632;
 }
 
 .store-pagination li.active {
-  background-color: #D10024;
-  border-color: #D10024;
+  background-color: #f2b632;
+  border-color: #f2b632;
   color: #FFF;
   font-weight: 500;
   cursor: default;
@@ -1430,7 +1499,7 @@ textarea.input {
 }
 
 #product-imgs .product-preview.slick-current {
-  border-color: #D10024;
+  border-color: #f2b632;
 }
 
 #product-imgs .slick-prev {
@@ -1480,7 +1549,7 @@ textarea.input {
 }
 
 .product-details .product-rating>i.fa-star {
-  color: #D10024;
+  color: #f2b632;
 }
 
 .product-details .review-link {
@@ -1492,7 +1561,7 @@ textarea.input {
   font-size: 24px;
   margin-top: 10px;
   margin-bottom: 15px;
-  color: #D10024;
+  color: #f2b632;
 }
 
 .product-details .product-price .product-old-price {
@@ -1506,7 +1575,7 @@ textarea.input {
   text-transform: uppercase;
   font-weight: 700;
   margin-left: 30px;
-  color: #D10024;
+  color: #f2b632;
 }
 
 .product-details .product-options {
@@ -1551,15 +1620,15 @@ textarea.input {
   width: 40px;
   height: 40px;
   line-height: 38px;
-  color: #D10024;
+  color: #f2b632;
   opacity: 0;
   visibility: hidden;
 }
 
 .product-details .add-to-cart .add-to-cart-btn:hover {
   background-color: #FFF;
-  color: #D10024;
-  border-color: #D10024;
+  color: #f2b632;
+  border-color: #f2b632;
   padding: 0px 30px 0px 50px;
 }
 
@@ -1649,7 +1718,7 @@ textarea.input {
 }
 
 #product-tab .tab-nav li.active a {
-  color: #D10024;
+  color: #f2b632;
 }
 
 #product-tab .tab-nav li a:after {
@@ -1657,7 +1726,7 @@ textarea.input {
   display: block;
   width: 0%;
   height: 2px;
-  background-color: #D10024;
+  background-color: #f2b632;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
@@ -1687,7 +1756,7 @@ textarea.input {
 }
 
 .rating-avg .rating-stars>i.fa-star, .rating .rating-stars>i.fa-star {
-  color: #D10024;
+  color: #f2b632;
 }
 
 .rating li {
@@ -1705,7 +1774,7 @@ textarea.input {
 }
 
 .rating .rating-progress>div {
-  background-color: #D10024;
+  background-color: #f2b632;
   position: absolute;
   left: 0;
   top: 0;
@@ -1759,7 +1828,7 @@ textarea.input {
 }
 
 .reviews .review-heading .review-rating>i.fa-star {
-  color: #D10024;
+  color: #f2b632;
 }
 
 .reviews-pagination {
@@ -1780,12 +1849,12 @@ textarea.input {
 
 .reviews-pagination li:hover {
   background-color: #E4E7ED;
-  color: #D10024;
+  color: #f2b632;
 }
 
 .reviews-pagination li.active {
-  background-color: #D10024;
-  border-color: #D10024;
+  background-color: #f2b632;
+  border-color: #f2b632;
   color: #FFF;
   cursor: default;
 }
@@ -1829,12 +1898,12 @@ textarea.input {
 }
 
 .review-form .input-rating .stars>label:hover:before, .review-form .input-rating .stars>label:hover~label:before {
-  color: #D10024;
+  color: #f2b632;
 }
 
 .review-form .input-rating .stars>input:checked label:before, .review-form .input-rating .stars>input:checked~label:before {
   content: "\f005";
-  color: #D10024;
+  color: #f2b632;
 }
 
 /*=========================================================
@@ -1900,7 +1969,7 @@ textarea.input {
 
 .order-summary .order-col .order-total {
   font-size: 24px;
-  color: #D10024;
+  color: #f2b632;
 }
 
 .order-details .payment-method {
@@ -1911,103 +1980,179 @@ textarea.input {
   display: block;
   margin-top: 30px;
 }
+/* Contact Section
+--------------------------------*/
 
-/*=========================================================
-	10 -> NEWSLETTER
-===========================================================*/
-
-#newsletter.section {
-  border-top: 2px solid #E4E7ED;
-  border-bottom: 3px solid #D10024;
-  margin-top: 30px;
+#contact {
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 60px 0;
+  overflow: hidden;
 }
 
-.newsletter {
+#contact .section-header {
+  padding-bottom: 30px;
   text-align: center;
 }
 
-.newsletter p {
-  font-size: 24px;
+#contact .contact-about h3 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #f2b632;
 }
 
-.newsletter form {
-  position: relative;
-  max-width: 520px;
-  margin: 30px auto;
+#contact .contact-about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: #888;
 }
 
-.newsletter form:after {
-  content: "\f003";
-  font-family: FontAwesome;
-  position: absolute;
-  font-size: 160px;
-  color: #E4E7ED;
-  top: 15px;
-  -webkit-transform: translateY(-50%) rotate(15deg);
-  -ms-transform: translateY(-50%) rotate(15deg);
-  transform: translateY(-50%) rotate(15deg);
-  z-index: -1;
-  left: -90px;
+#contact .social-links {
+  padding-bottom: 20px;
 }
 
-.newsletter form .input {
-  width: calc(100% - 160px);
-  margin-right: -4px;
-  border-radius: 40px 0px 0px 40px;
-}
-
-.newsletter form .newsletter-btn {
-  width: 160px;
-  height: 40px;
-  font-weight: 700;
-  background: #D10024;
-  color: #FFF;
-  border: none;
-  border-radius: 0px 40px 40px 0px;
-}
-
-.newsletter .newsletter-follow {
+#contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #f2b632;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
   text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid #f2b632;
 }
 
-.newsletter .newsletter-follow li {
+#contact .social-links a:hover {
+  background: #f2b632;
+  color: #fff;
+}
+
+#contact .info {
+  color: #283d50;
+}
+
+#contact .info i {
+  font-size: 32px;
+  color: #f2b632;
+  float: left;
+  line-height: 1;
+}
+
+#contact .info p {
+  padding: 0 0 10px 36px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+#contact .form-group{
+  padding: 1%
+}
+
+#contact .form #sendmessage {
+  color: #f2b632;
+  border: 1px solid #f2b632;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #sendmessage.show,
+#contact .form #errormessage.show,
+#contact .form .show {
+  display: block;
+}
+
+#contact .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#contact .form input,
+#contact .form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+#contact .form button[type="submit"] {
+  background: #f2b632;
+  border: 0;
+  border-radius: 20px;
+  padding: 8px 30px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#contact .form button[type="submit"]:hover {
+  background: #f2b632;
+  cursor: pointer;
+}
+
+#contact .social-links{
+  text-align: center;
+  padding: 2%
+}
+
+#contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #f2b632;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
   display: inline-block;
   margin-right: 5px;
-}
 
-.newsletter .newsletter-follow li:last-child {
-  margin-right: 0px;
-}
+ }
 
-.newsletter .newsletter-follow li a {
-  position: relative;
-  display: block;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
-  border: 1px solid #E4E7ED;
-  background-color: #FFF;
-  -webkit-transition: 0.2s all;
-  transition: 0.2s all;
+#contact .social-links a:hover {
+  background: #f2b632;
+  color: #fff;
 }
-
-.newsletter .newsletter-follow li a:hover, .newsletter .newsletter-follow li a:focus {
-  background-color: #E4E7ED;
-  color: #D10024;
-}
-
 /*=========================================================
 	11 -> FOOTER
 ===========================================================*/
 
 #footer {
-  background: #15161D;
+  background: #252839;
   color: #B9BABC;
 }
 
 #bottom-footer {
-  background: #1E1F29;
+  background: #677077;
+
 }
 
 .footer {
@@ -2015,7 +2160,7 @@ textarea.input {
 }
 
 .footer .footer-title {
-  color: #FFF;
+  color: #b5b5b7;
   text-transform: uppercase;
   font-size: 18px;
   margin: 0px 0px 30px;
@@ -2031,13 +2176,13 @@ textarea.input {
 
 .footer-links li i {
   margin-right: 15px;
-  color: #D10024;
+  color: #f2b632;
   width: 14px;
   text-align: center;
 }
 
 .footer-links li a:hover {
-  color: #D10024;
+  color: #f2b632;
 }
 
 .copyright {
@@ -2077,8 +2222,8 @@ textarea.input {
 }
 
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
-  background-color: #D10024;
-  border-color: #D10024;
+  background-color: #ff8a65;
+  border-color: #ff8a65;
 }
 
 .slick-prev:before, .slick-next:before {
@@ -2123,7 +2268,7 @@ textarea.input {
 }
 
 .slick-dots li.slick-active button:before {
-  background-color: #D10024;
+  background-color: #ff8a65;
 }
 
 .custom-dots .slick-dots {
@@ -2187,4 +2332,25 @@ textarea.input {
     float: none;
     margin-top: 10px;
   }
+  .li {
+    font-size: 14px;
+    margin-left: 10px;
+    display: list-item;
+ }
+
+}
+
+
+/* Heading */
+
+ .featurette-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+  .lead{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
 }
