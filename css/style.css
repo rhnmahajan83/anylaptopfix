@@ -2160,9 +2160,17 @@ textarea.input {
 }
 
 .footer .footer-title {
+  font-family: 'Montserrat', sans-serif;
   color: #b5b5b7;
   text-transform: uppercase;
   font-size: 18px;
+  margin: 0px 0px 30px;
+}
+
+.footer-text {
+  font-family: 'Montserrat', sans-serif;
+  color: #b5b5b7;
+  font-size: 15px;
   margin: 0px 0px 30px;
 }
 
